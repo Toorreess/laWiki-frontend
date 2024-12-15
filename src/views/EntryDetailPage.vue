@@ -1,3 +1,7 @@
 <script setup></script>
-<template></template>
+<template>
+  <div>
+    <h1>Entry Detail Page</h1>
+  </div>
+</template>
 <style scoped></style>

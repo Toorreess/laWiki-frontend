@@ -31,17 +31,17 @@ const router = createRouter({
     {
       path: '/wiki/:wiki_id/entry/new',
       name: 'ntry-new',
-      component: () => import('@/views/WikiEntryFormPage.vue'),
+      component: () => import('@/views/EntryFormPage.vue'),
     },
     {
-      path: 'wiki/:wiki_id/entry/:entry_id',
+      path: '/wiki/:wiki_id/entry/:entry_id',
       name: 'entry-detail',
-      component: () => import('@/views/WikiEntryDetailPage.vue'),
+      component: () => import('@/views/EntryDetailPage.vue'),
     },
     {
       path: '/wiki/:wiki_id/entry/:entry_id/edit',
       name: 'entry-edit',
-      component: () => import('@/views/WikiEntryFormPage.vue'),
+      component: () => import('@/views/EntryFormPage.vue'),
     },
   ],
 })
